@@ -326,6 +326,7 @@ p {
 }
 .team-list .card-name {
   font-size: 16px;
+  font-style: italic;
   line-height: 1.19;
   text-align: center;
 }
@@ -455,3 +456,4 @@ p {
   font-size: 16px;
   line-height: 1.88;
 }
+/*перевірка роботи гіт*/
