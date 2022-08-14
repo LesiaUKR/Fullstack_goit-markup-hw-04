@@ -332,6 +332,23 @@ p {
 .team-list.card-name:last-child.card-description:last-child {
   margin-right: 0px;
 }
+.socials-list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding-top: 16px;
+}
+.socials-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*background-color: var(--button-accent-color);*/
+  outline: 1px solid #000000;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  
+}
 /*Подвал*/
 .footer {
   padding-top: 60px;
