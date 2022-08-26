@@ -419,6 +419,7 @@ p {
   background-color: var(--secondary-bg-color);
 }
 .footer-container {
+  display: flex;
   align-items: baseline;
 }
 .footer-left {
@@ -428,6 +429,7 @@ p {
 .footer-right {
   display: flex;
   flex-direction: column;
+  margin-left: 70px;
 }
 .footer-contact-list {
   display: flex;
@@ -468,8 +470,10 @@ p {
 /*Footer Socials links*/
 .footer-right {
 display: flex;
+flex-direction: column;
 }
-.footer-socials-title {
+.join-text {
+padding-bottom: 20PX;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -479,11 +483,11 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
 }
-.footer-socials {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  justify-content: center;
+.footer-socials-list {
+display: flex;
+gap: 10px;
+align-items: center;
+justify-content: center;
 }
 .footer-socials-link {
   display: flex;
