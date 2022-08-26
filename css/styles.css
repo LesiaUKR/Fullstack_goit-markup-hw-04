@@ -426,11 +426,6 @@ p {
   display: flex;
   flex-direction: column;
   }
-.footer-right {
-  display: flex;
-  flex-direction: column;
-  margin-left: 70px;
-}
 .footer-contact-list {
   display: flex;
   flex-direction: column;
@@ -471,6 +466,7 @@ p {
 .footer-right {
 display: flex;
 flex-direction: column;
+margin-left: 70px;
 }
 .join-text {
 padding-bottom: 20PX;
