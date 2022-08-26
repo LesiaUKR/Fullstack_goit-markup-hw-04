@@ -261,7 +261,19 @@ p {
 .feature-list-item {
   margin-bottom: 0px;
 }
-.feature-list-item::before {
+.feature-link {
+  display: flex;
+  content: "";
+  width: 270px;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+   background-color: #f5f4fa;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 0px;
+}
+/*.feature-list-item::before {
   display: block;
   content: "";
   height: 120px;
@@ -269,8 +281,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   margin-right: 0px;
-}
-.icon-antenna::before {
+}*/
+/*.icon-antenna::before {
   background-image: url("../images/css/antenna\ 1.svg");
 }
 .icon-clock::before {
@@ -281,7 +293,7 @@ p {
 }
 .icon-astronaut::before {
   background-image: url("../images/css/astronaut\ 1.svg");
-}
+}*/
 .feature-list-item .title {
   margin-top: 30px;
   margin-bottom: 10px;
@@ -391,7 +403,7 @@ p {
   gap: 30px;
   align-items: center;
   justify-content: center;
-  padding-top: 16px;
+ 
 }
 .clients-link {
   display: flex;
@@ -503,11 +515,11 @@ justify-content: center;
 .footer-socials-link:focus {
   color: var(--primary-white-color);
   background-color: var(--button-accent-color);
-  
-/*Фильтры Портфолио Наши работы*/
+}
 .logo-footer {
   display: inline;
 }
+/*Фильтры Портфолио Наши работы*/
 .button-list {
   display: flex;
   justify-content: center;
@@ -540,6 +552,8 @@ justify-content: center;
   margin-right: 8px;
 }
 .container .portfolio {
+  display: flex;
+  flex-wrap: wrap;
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
@@ -583,5 +597,9 @@ justify-content: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
+}
+.portfolio-item:hover,
+.portfolio-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 /*перевірка роботи гіт*/
