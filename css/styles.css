@@ -369,18 +369,19 @@ p {
   justify-content: center;
   /*outline: 1px solid #000000;*/
   background-color: var(--primary-white-color);
-  color: var(--primary-text-color);
+  color: var(--primary-icon-color);
   width: 44px;
   height: 44px;
   border-radius: 50%;
 }
 .socials-icon {
-  fill: var(--primary-icon-color);
+  fill: currentColor;
 }
+
 .socials-link:hover,
 .socials-link:focus {
-  color: var(--primary-white-color);
-  background-color: var(--button-accent-color);
+   background-color: var(--button-accent-color);
+   color: var(--primary-white-color);
 }
 /*Спосіб перший зміна кольору іконки при ховері*/
 /*.socials-link:hover {
@@ -407,12 +408,12 @@ p {
   justify-content: center;
   outline: 1px solid #AFB1B8;
   background-color: var(--primary-white-color);
-  color: var(--primary-text-color);
+  color: var(--primary-icon-color);
   height: 92px;
   border-radius: 4px;
 }
 .clients-icon {
-  fill: var(--primary-icon-color);
+  fill: currentColor;
 }
 .clients-link:hover,
 .clients-link:focus {
