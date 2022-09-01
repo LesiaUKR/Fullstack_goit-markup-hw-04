@@ -369,13 +369,13 @@ p {
   justify-content: center;
   /*outline: 1px solid #000000;*/
   background-color: var(--primary-white-color);
-  color: var(--primary-text-color);
+  color: var(--primary-icon-color);
   width: 44px;
   height: 44px;
   border-radius: 50%;
 }
 .socials-icon {
-  fill: var(--primary-white-color);
+  fill: currentColor;
 }
 .socials-link:hover,
 .socials-link:focus {
