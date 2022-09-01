@@ -377,7 +377,6 @@ p {
 .socials-icon {
   fill: currentColor;
 }
-
 .socials-link:hover,
 .socials-link:focus {
    background-color: var(--button-accent-color);
